@@ -5,7 +5,7 @@ The data exercise requires two pieces:
  * a docker image with a working environment
  * actual data
 
-# Get started
+# Getting started
 
 This assumes you are working in a linux environment. The same should be executable also in a windows or Mac OSX environments.
 Prerequisites:
@@ -50,7 +50,7 @@ Different pieces do the following:
  * `-w $PWD` makes the above directory the current directory where jupyter lab lives
  * `--user $(id -u):$(id -g)` makes this container run as a current user, as a basic safety precaution
 
-5. Run the jupyter notebook. Open your browser and go to [https://localhost:2023](https://localhost:2023). Jupyter should open.
+5. Run the jupyter notebook. Open your browser and go to [http://localhost:2023](http://localhost:2023). Jupyter should open.
    Open `example.ipynb` and try to run it to confirm basic functionality.
    
 
